@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <title>
+        <head>User Registration</head>
+    </title>
+    <body>
+        <center>
+        <h1>User Registration</h1>
+        <form action="" method="POST" enctype="text/plain"">
+            <table>
+                <tr>
+                    <td><label for=" fname">First Name: </label></td>
+                    <td><input type="text" id="fname" name="from" placeholder="First Name"></td>
+                </tr>
+                <tr>
+                    <td><label for=" lname">Last Name: </label></td>
+                    <td><input type="text" id="lname" name="from" placeholder="Last Name"></td>
+                </tr>
+                <tr>
+                    <td><label for=" gender">Gender: </label></td>
+                    <td>
+                        <input type="radio" id="male" name="gender" value="1">Male
+                        <input type="radio" name="gender" id="female">Female
+
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="dob">Date of Birth: </label></td>
+                    <td><input type="dob" id="dob" name="dob" placeholder="Date of Birth"></td>
+                </tr>
+               <tr>
+                    <td><label for=" address">Address: </label></td>
+                    <td><textarea name="address" placeholder="Your Address" rows="6"></textarea></td>
+               </tr> 
+                <tr>
+                    <td><label for="email">Email: </label></td>
+                    <td><input type="text" id="email" name="email" placeholder="email"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Phone Number: </label></td>
+                    <td><input type="number" id="phone" name="phone" placeholder="Phone numner"</td>
+                </tr>
+                <tr>
+                    <td><label for="contact">Can we Contact You? </label></td>
+                    <td>
+                        <input type="radio" id="yes" name="contact" value="1">Yes
+                        <input type="radio" name="contact" id="no" value="2">No
+                    </td>
+                    <tr>
+                        <td><label for="pref">Communication Preferences: </label></td>
+                        <td>
+                            <input type="checkbox" id="email" name="pref" value="Male">Email
+                            <input type="checkbox" name="pref" id="sms">SMS
+                        </td>
+                    </tr>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" id="agree" name="agree" value="agree">&nbsp&nbsp&nbspI agree to the <span style="color:blue;">terms and conditions</span> of the website.</td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Search" onclick="alert(document.URL)" style="padding: 6px; color:white; border:7px; background-color:blue;border-radius: 8px;font-size: 20px;"></td>
+                    <td><input type="reset" value="Reset" onclick="alert(document.URL)" style="padding: 6px;color:white; border:7px; background-color:blue;border-radius: 8px;font-size: 20px;"></td>
+                </tr>
+            </table>
+        </form>
+    </center>
+    </body>
+</html>
