@@ -9,6 +9,14 @@
         <form action="print.html" method="POST" enctype="text/plain"">
             <table>
                 <tr>
+                    <td><label for="title">Title: </label></td>
+                    <td><select id="title" name="Title">
+                        <option value="1">Mr.</option>
+                        <option value="2">Mrs.</option>
+                        <option value="3">Ms</option>
+                    </select> </td>
+                </tr>
+                <tr>
                     <td><label for=" fname">First Name: </label></td>
                     <td><input type="text" id="fname" name="fname" placeholder="First Name"></td>
                 </tr>
@@ -53,6 +61,10 @@
                             <input type="checkbox" name="pref" id="sms">SMS
                         </td>
                     </tr>
+                </tr>
+                <tr>
+                    <td><label for="file">Upload Resume</label></td>
+                    <td><input type="file" name="fileupload" accept="application/pdf"/> </td>
                 </tr>
                 <tr>
                     <td><input type="checkbox" id="agree" name="agree" value="agree">&nbsp&nbsp&nbspI agree to the <span style="color:blue;">terms and conditions</span> of the website.</td>
